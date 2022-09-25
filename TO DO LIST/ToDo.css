@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family:fira Code;
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px solid black;
+    width:100%;
+    margin-bottom: 10px;
+}
+.container #input{
+    border: 0px solid black;
+    width:100%;
+    margin: auto;
+    font-size:40px;
+    
+}
+.container #input:focus{
+    outline:none;
+}
+.container #buttontodo{
+    border: 0px solid black;
+    width:30%;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    height:100%;
+    font-size:40px;
+    cursor: pointer;
+}
+.todolistcontainer{
+    border:1px solid black;
+    width:80%;
+    height: 100px;
+    margin-top:12px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+}
+.todotask{
+    font-size:150%;
+    width:30%;
+    align-self: center;
+    margin: auto;
+
+}
+.checkbox{
+    width:8%;
+}
+.checkbox:checked{
+   accent-color: rgb(227, 127, 167);
+}
+.crossicon{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width:12%;
+    font-size:50px;
+}
